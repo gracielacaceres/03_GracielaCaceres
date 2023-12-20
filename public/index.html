@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="CEL" class="form">
+
+        <div id="form" class="base">
+          <form id="contact" action="" method="post">
+            <h3>FORMULARIO</h3>
+      
+                <div class="col-md-6 mt-5 text-center cardForm">
+                  <form action="/procesar-formulario" method="POST">
+                    <div class="form-group mb-3">
+                      <label for="nombre_alumno">Nombre del Estudiante</label>
+                      <input type="text" name="nombre_alumno" class="form-control" />
+                    </div>
+                    <div class="form-group mb-3">
+                      <label for="email_alumno">Correo del Estudiante</label>
+                      <input type="text" name="email_alumno" class="form-control" />
+                    </div>
+                    <div class="form-group mb-4">
+                      <label for="curso_alumno">Curso</label>
+                      <select name="curso_alumno" class="form-control">
+                        <option value="Python">Python</option>
+                        <option value="NodeJS">NodeJS</option>
+                        <option value="PHP">PHP</option>
+                        <option value="JavaScript">JavaScript</option>
+                      </select>
+                    </div>
+      
+                    <button type="submit" class="btn btn-info btn-lg btn-block">
+                      Enviar formulario
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+    
+      
+</body>
+</html>
